@@ -17,7 +17,7 @@ from telebot import types
 model = load_model('my_model.h5')
 
 # Initialize the Telegram bot
-bot = telebot.TeleBot('6207600222:AAF-g1Nf4-sWrEhiNzqolYjFM332w1cqvXA')
+bot = telebot.TeleBot('....')
 
 # Define language constants
 UZBEK = 'uz'
