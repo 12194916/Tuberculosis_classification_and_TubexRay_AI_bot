@@ -77,7 +77,7 @@ def send_welcome(message):
     )
     
     # Send the welcome message with the language selection buttons
-    msg = bot.send_message(message.chat.id, 'Tilni tanlang /Please select your language / Выберите язык', reply_markup=markup)
+    msg = bot.send_message(message.chat.id, 'Tilni tanlang / Please select your language / Выберите язык', reply_markup=markup)
     
     # Store the selected language in the user data for future use
     bot.register_next_step_handler(msg, process_language_selection)
