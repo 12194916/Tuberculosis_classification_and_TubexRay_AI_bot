@@ -14,7 +14,7 @@ from tensorflow.keras.preprocessing.image import load_img, img_to_array
 import tensorflow
 from telebot import types
 
-model = load_model('/content/my_model.h5')
+model = load_model('my_model.h5')
 
 # Initialize the Telegram bot
 bot = telebot.TeleBot('6207600222:AAF-g1Nf4-sWrEhiNzqolYjFM332w1cqvXA')
