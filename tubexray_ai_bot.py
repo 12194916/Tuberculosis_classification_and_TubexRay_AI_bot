@@ -32,9 +32,9 @@ uz_welcome='''- Assalomu alaykum, Men dasturchi Muhammadyusuf tomonidan tarbiyal
 
 - Muhim: Men test rejimida ishlamoqdaman, iltimos, menga ishonib hulosa qilmang, malakalik shifokorga murojat qiling.
 
-Boshlash uchun, iltimos bemor o'pkasining rengin rasmini yuboring. '''
+Boshlash uchun, iltimos bemor o'pkasining rengin rasmini yuboring. Muhim: rasm ko'rinishida, file emas.'''
 
-en_welcome='''- Hello, I am a trained artificial intelligence by developer Muhammadyusuf
+en_welcome='''- Hello, I am a trained artificial intelligence by developer Muhammadyusuf.
 
 - Looking at the picture of the patient's lungs, I can determine whether the patient has tuberculosis or not.
   
@@ -42,7 +42,7 @@ en_welcome='''- Hello, I am a trained artificial intelligence by developer Muham
 
 - Important: I am working in test mode, please do not have a conclusion based on my responce, consult a qualified doctor.
 
-To begin, please send the XRay image of the patient's lungs. '''
+To begin, please send the XRay image of the patient's lungs. Note: as a picture, not a file. '''
 
 rus_welcome='''- Здравствуйте, я обученный искусственный интеллект от разработчика Мухаммадюсуфа.
 
@@ -52,7 +52,7 @@ rus_welcome='''- Здравствуйте, я обученный искусст�
 
 - Важно: я работаю в тестовом режиме, пожалуйста, не делайте вывод по моему ответу, обратитесь к квалифицированному врачу. 
 
-Для начала отправьте рентгеновский снимок легких пациента.'''
+Для начала отправьте рентгеновский снимок легких пациента. Примечание: как изображение, а не файл.'''
 
 
 # Define welcome messages
