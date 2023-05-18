@@ -108,7 +108,7 @@ def process_language_selection(message):
             types.KeyboardButton(text='🇬🇧 English'),
             types.KeyboardButton(text='🇷🇺 Русский')
         )
-        msg = bot.send_message(message.chat.id, 'Tilni tanlang /Please select your language / Выберите язык', reply_markup=markup)
+        msg = bot.send_message(message.chat.id, 'Tilni tanlang / Please select your language / Выберите язык', reply_markup=markup)
         bot.register_next_step_handler(msg, process_language_selection)
 
 
